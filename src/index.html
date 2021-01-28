@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <title>F.A.Q.: Часто задаваемые вопросы</title>
+
+  </head>
+  <body>
+    <div id="sidebar">
+      <div class="mui--text-white mui--text-display1 mui--align-vertical">F.A.Q.: Часто задаваемые вопросы</div>
+    </div>
+    <div id="content" class="mui-container-fluid">
+      <div class="mui-row">
+        <div class="mui-col-sm-10 mui-col-sm-offset-1">
+          <br>
+          <br>
+          <div class="mui--text-black-54 mui--text-body2">НОВЫЙ ВОПРОС</div>
+          <div class="mui-divider"></div>
+          <br>
+          
+          <form class="mui-form" id="form">
+            <div class="mui-textfield mui-textfield--float-label">
+              <input id="question-input" type="text" required minlength="10" maxlength="256">
+              <label for="question-input">ВАШ ВОПРОС:</label>
+            </div>
+            <button id="submit" type="submit" disabled class="mui-btn mui-btn--raised mui-btn--primary" >Задать вопрос</button>
+          </form>
+          
+
+          <br>
+          <div class="mui--text-black-54 mui--text-body2">НЕДАВНИЕ ВОПРОСЫ</div>
+          <div class="mui-divider"></div>
+          <br>
+
+          <div id='list'></div>
+          <div class="mui--text-headline">MUI Acquires New Features</div>
+          <div class="mui--text-black-54">By <a href="#">Team MUI</a> 1 week ago</div>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis aliquam ipsum sed dignissim. Sed ac accumsan odio. Vivamus tristique dignissim neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc cursus felis nec purus condimentum vestibulum. Donec mauris nisi, sollicitudin eget iaculis id, suscipit id odio. <a href="#">Read more...</a></div>
+          <br>
+
+          <div id='list'></div>
+          <div class="mui--text-headline">MUI Acquires New Features</div>
+          <div class="mui--text-black-54">By <a href="#">Team MUI</a> 3 weeks ago</div>
+          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis aliquam ipsum sed dignissim. Sed ac accumsan odio. Vivamus tristique dignissim neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc cursus felis nec purus condimentum vestibulum. Donec mauris nisi, sollicitudin eget iaculis id, suscipit id odio. <a href="#">Read more...</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
